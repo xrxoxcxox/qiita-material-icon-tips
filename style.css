@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #f6f6f6;
+  color: rgba(0 0 0 / 0.87);
+  font-family: -apple-system, "BlinkMacSystemFont", "Noto Sans JP", sans-serif;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+
+.main {
+  padding: 24px;
+  width: min(640px, 100%);
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.section {
+  margin-top: 48px;
+}
+
+.section + .section {
+  margin-top: 32px;
+}
+
+.headline {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.icons {
+  display: flex;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.icon {
+  font-size: 56px;
+}
